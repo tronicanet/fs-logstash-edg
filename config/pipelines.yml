@@ -1,0 +1,8 @@
+- pipeline.id: movies
+  path.config: "/usr/share/logstash/pipeline/movies.conf"
+- pipeline.id: channels
+  path.config: "/usr/share/logstash/pipeline/channels.conf"
+- pipeline.id: series
+  path.config: "/usr/share/logstash/pipeline/series.conf"
+- pipeline.id: tv_programs
+  path.config: "/usr/share/logstash/pipeline/tv_programs.conf"
