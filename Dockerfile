@@ -1,4 +1,5 @@
-FROM docker.elastic.co/logstash/logstash:7.9.0
+#FROM docker.elastic.co/logstash/logstash:7.9.0
+FROM  docker.elastic.co/logstash/logstash-oss:7.10.2
 
 #Required Dependencies
 RUN /usr/share/logstash/bin/logstash-plugin install logstash-output-elasticsearch
